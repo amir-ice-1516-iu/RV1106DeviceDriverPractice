@@ -1,0 +1,378 @@
+    1  htop
+    2  df -h
+    3  poweroff
+    4  export PATH=$(echo "$PATH" | tr -d ' \t\n')
+    5  sudo apt update
+    6  sudo apt-get install -y git ssh make gcc gcc-multilib g++-multilib module-assistant expect g++ gawk texinfo libssl-dev bison flex fakeroot cmake unzip gperf autoconf device-tree-compiler libncurses5-dev pkg-config bc python-is-python3 passwd openssl openssh-server openssh-client vim file cpio rsync
+    7  ls
+    8  pwd
+    9  git clone https://github.com/LuckfoxTECH/luckfox-pico.git
+   10  ls
+   11  cd luckfox-pico/
+   12  cd tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/ls
+   13  cd tools/linux/toolchain/arm-rockchip830-linux-uclibcgnueabihf/
+   14  ls
+   15  source env_install_toolchain.sh 
+   16  cat env_install_toolchain.sh 
+   17  sudo source env_install_toolchain.sh 
+   18  sudo su
+   19  echo $HOME
+   20  cat /home/luckfox/.bashrc 
+   21  cat /home/luckfox/.bash_profile 
+   22  cat /etc/profile
+   23  ls -all /home/luckfox/.bash_profile 
+   24  source env_install_toolchain.sh 
+   25  ls -all
+   26  cd /home/luckfox/luckfox-pico/
+   27  ls
+   28  ./build.sh lunch
+   29  nano /home/luckfox/luckfox-pico/project/cfg/BoardConfig_IPC/BoardConfig-SPI_NAND-Buildroot-RV1106_Luckfox_Pico_Max-IPC.mk
+   30  ./build.sh --help
+   31  ./build.sh all
+   32  df -h
+   33  htop
+   34  nano /home/luckfox/luckfox-pico/project/cfg/BoardConfig_IPC/BoardConfig-SPI_NAND-Buildroot-RV1106_Luckfox_Pico_Max-IPC.mk
+   35  find ./ -name CAC_sc3336_CMK-OT2119-PC1_30IRC-F16
+   36  nano /home/luckfox/luckfox-pico/project/cfg/BoardConfig_IPC/BoardConfig-SPI_NAND-Buildroot-RV1106_Luckfox_Pico_Max-IPC.mk
+   37  ls -all ./output/out/media_out/isp_iqfiles/CAC_sc3336_CMK-OT2119-PC1_30IRC-F16
+   38  ls -all ./output/out/media_out/isp_iqfiles/
+   39  ls -all ./output/out/media_out/isp_iqfiles/CAC_sc3336_CMK-OT2119-PC1_30IRC-F16
+   40  nano /home/luckfox/luckfox-pico/project/cfg/BoardConfig_IPC/BoardConfig-SPI_NAND-Buildroot-RV1106_Luckfox_Pico_Max-IPC.mk
+   41  find ./ -name rv1106g-luckfox-pico-max.dts
+   42  diff ./sysdrv/tools/board/kernel/rv1106g-luckfox-pico-max.dts ./sysdrv/source/kernel/arch/arm/boot/dts/rv1106g-luckfox-pico-max.dts
+   43  nano ./sysdrv/source/kernel/arch/arm/boot/dts/rv1106g-luckfox-pico-max.dts
+   44  luckfox-config
+   45  ls
+   46  cat rkflash.sh 
+   47  ls
+   48  cd config/
+   49  ls
+   50  cd ..
+   51  luckfox-build --help
+   52  ls
+   53  ./build.sh --help
+   54  ./build.sh kernelconfig
+   55  find ./ -name luckfox-config
+   56  ./sysdrv/tools/board/luckfox_config/luckfox-config
+   57  cd ./sysdrv/tools/board/luckfox_config/
+   58  ls
+   59  ./luckfox-config 
+   60  ./luckfox-config --help
+   61  find /home/luckfox/luckfox-pico/ -name luckfox.cfg
+   62  cd /home/luckfox/luckfox-pico/
+   63  ./build.sh kernelconfig
+   64  nano ./sysdrv/source/kernel/arch/arm/boot/dts/rv1106g-luckfox-pico-max.dts
+   65  ./build.sh kernel
+   66  ./build.sh kernelconfig
+   67  ./build.sh kernel
+   68  s
+   69  ls
+   70  cd output/
+   71  ls
+   72  cd image/
+   73  ls
+   74  cat tftp_update.txt 
+   75  ls -all
+   76  cd ..
+   77  ./build.sh kernel
+   78  cat output/image/tftp_update.txt 
+   79  ls output/image/
+   80  ls output/image/ -all
+   81  ls output/
+   82  ls output/ -all
+   83  cd output/out/
+   84  ls
+   85  cd ..
+   86  df -h
+   87  ls
+   88  ./build.sh --help
+   89  ./build.sh buildrootconfig
+   90  ./build.sh kernel
+   91  ./build.sh kernelconfig
+   92  nano ./sysdrv/source/kernel/arch/arm/boot/dts/rv1106g-luckfox-pico-max.dts
+   93  ./build.sh kernel
+   94  cd GC9A01A_LCD/
+   95  make clean
+   96  make main
+   97  make clean
+   98  make main
+   99  make clean
+  100  make main
+  101  make clean
+  102  make main
+  103  make clean
+  104  make main
+  105  make clean
+  106  make main
+  107  make clean
+  108  make main
+  109  make clean
+  110  make main
+  111  make clean
+  112  make main
+  113  make clean
+  114  make main
+  115  make clean
+  116  make main
+  117  make clean
+  118  make main
+  119  make clean
+  120  make main
+  121  make clean
+  122  make main
+  123  make clean
+  124  make main
+  125  make clean
+  126  make main
+  127  make clean
+  128  make main
+  129  make clean
+  130  make main
+  131  make clean
+  132  make main
+  133  make clean
+  134  make main
+  135  ifconfig
+  136  sudo apt install net-tools
+  137  ifconfig
+  138  htop
+  139  df -h
+  140  htop
+  141  df -h
+  142  htop
+  143  df -h
+  144  htop
+  145  df -h
+  146  htop
+  147  poweroff
+  148  ls
+  149  rm -rf GC9A01A_LCD/
+  150  cd GC9A01A_LCD/
+  151  make clean
+  152  make main
+  153  cd ..
+  154  rm -rf GC9A01A_LCD/
+  155  cd GC9A01A_LCD/
+  156  make clean
+  157  make main
+  158  make clean
+  159  make main
+  160  cd ..
+  161  rm GC9A01A_LCD/ -rf
+  162  cd GC9A01A_LCD/
+  163  make clean
+  164  make main
+  165  ls
+  166  cd GC9A01A_LCD/
+  167  ls
+  168  make clean
+  169  make main
+  170  cd ../luckfox-pico/project/app/fastboot_client/
+  171  ls
+  172  make
+  173  ls
+  174  cat Makefile 
+  175  CD ../
+  176  cd /home/luckfox/GC9A01A_LCD/
+  177  make clean
+  178  make
+  179  make clean
+  180  make
+  181  make clean
+  182  make
+  183  make clean
+  184  make
+  185  make clean
+  186  make
+  187  make clean
+  188  make
+  189  make clean
+  190  make
+  191  make clean
+  192  make
+  193  make clean
+  194  make
+  195  clear
+  196  ls
+  197  cd luckfox-pico/
+  198  ls
+  199  ./build.sh kernelconfig
+  200  ./build.sh --help
+  201  ./build.sh kernelconfig
+  202  0;91;29M0;91;29m
+  203  cd ..
+  204  git clone https://github.com/LuckfoxTECH/luckfox_pico_rkmpi_example.git
+  205  0;79;24M0;78;24mdf -h
+  206  df -h
+  207  exit
+  208  df -h
+  209  ls
+  210  cd luckfox_pico_rkmpi_example/
+  211  ls
+  212  0;74;22M0;74;22m
+  213  sudo chmod a+x ./build.sh
+  214  ./build.sh
+  215  ls
+  216  cd build/
+  217  ls
+  218  make ../
+  219  cat Makefile 
+  220  make
+  221  ls
+  222  cd ..
+  223  ls
+  224  cd in
+  225  cd install
+  226  ls
+  227  ls -all
+  228  cd luckfox_pico_rtsp_yolov5_demo/
+  229  ls
+  230  ls -all
+  231  cd ..
+  232  cd ..
+  233  cd install/luckfox_pico_rtsp_yolov5_demo/
+  234  ls
+  235  cd model/
+  236  ls
+  237  ls -all
+  238  cd ..
+  239  cd ..
+  240  scp -rf luckfox_pico_rtsp_yolov5_demo/ rango@192.168.0.5:/home/rango/Pico_OLED_Code/
+  241  clear
+  242  scp -rf luckfox_pico_rtsp_yolov5_demo/ rango@192.168.0.5:/home/rango/Pico_OLED_Code/
+  243  scp -r luckfox_pico_rtsp_yolov5_demo/ rango@192.168.0.5:/home/rango/Pico_OLED_Code/
+  244  0;70;20M0;70;20m
+  245  cd ..
+  246  cd ..
+  247  find luckfox/ -name rv1106g-luckfox-pico-max.dts
+  248  find ./luckfox-pico/ -name rv1106g-luckfox-pico-max.dts
+  249  0;70;25M0;49;25m0;59;27M0;59;27m0;69;25M0;50;25m
+  250  exit
+  251  ls
+  252  cd bkp/
+  253  ls
+  254  cd C/
+  255  ls
+  256  cd ..
+  257  cd ..
+  258  ls
+  259  rm bkp/
+  260  rm -rf bkp
+  261  rm -rf luckfox_pico_rkmpi_example/
+  262  clear
+  263  ls
+  264  df -h
+  265  exit
+  266  find ./luckfox-pico/ -name rv1106g-luckfox-pico-max.dts
+  267  find ./luckfox-pico/ -name rv1106.dtsi
+  268  ls
+  269  cd GC9A01A_LCD/
+  270  ls
+  271  make clean
+  272  make main
+  273  cd luckfox_pico_rkmpi_example/
+  274  ls
+  275  cat build.sh 
+  276  chmod +x build.sh 
+  277  ./build.sh 
+  278  make
+  279  ls
+  280  cd build/
+  281  ls
+  282  make
+  283  make clean
+  284  make all
+  285  cat Makefile 
+  286  cd ..
+  287  ls
+  288  ./build.sh
+  289  cat ~/.bashrc 
+  290  echo $PATH
+  291  ./build.sh 
+  292  echo $LUCKFOX_SDK_PATH
+  293  vi CMakeLists.txt 
+  294  export LUCKFOX_SDK_PAATH=/home/luckfox/luckfox-pico
+  295  ./build.sh 
+  296  ./build
+  297  ./build.sh 
+  298  cd ../luckfox-pico/
+  299  ./build.sh kernel
+  300  cd ../GC9A01A_LCD/
+  301  make clean
+  302  make main
+  303  make clean
+  304  make main
+  305  make clean
+  306  make main
+  307  make clean
+  308  make main
+  309  cd ../luckfox-pico/
+  310  ls
+  311  cd output/
+  312  ls
+  313  cd image/
+  314  ls
+  315  ls -all
+  316  cd ..
+  317  scp -r ./image/ rango@192.168.0.5:/home/rango/luckfox-pico/output/
+  318  ls
+  319  cd out/
+  320  ls
+  321  cd ..
+  322  scp -r ./out/ rango@192.168.0.5:/home/rango/luckfox-pico/output/
+  323  cd ..
+  324  find ./ -name rv1106g-luckfox-pico-max.dts
+  325  ./build.sh kernel
+  326  scp -r ./image/ rango@192.168.0.5:/home/rango/luckfox-pico/output/
+  327  cd output/
+  328  scp -r ./image/ rango@192.168.0.5:/home/rango/luckfox-pico/output/
+  329  cd ..
+  330  ./build.sh kernel
+  331  cd output/
+  332  scp -r ./image/ rango@192.168.0.5:/home/rango/luckfox-pico/output/
+  333  cd ..
+  334  ./build.sh kernel
+  335  cd output/
+  336  scp -r ./image/ rango@192.168.0.5:/home/rango/luckfox-pico/output/
+  337  clearhtop
+  338  clear
+  339  htop
+  340  clear
+  341  l
+  342  ls
+  343  ifconfig
+  344  ifconfig
+  345  ls
+  346  ls /home/luckfox/luckfox-pico/sysdrv/source/buildroot/buildroot-2023.02.6/output/host/environment-setup
+  347  find /home/luckfox/luckfox-pico/sysdrv/source/buildroot/buildroot-2023.02.6/output/host -name gcc
+  348  find /home/luckfox/luckfox-pico/sysdrv/source/buildroot/buildroot-2023.02.6/output/host/ -name gcc
+  349  ls /home/luckfox/luckfox-pico/sysdrv/source/buildroot/buildroot-2023.02.6/output/host/
+  350  ls /home/luckfox/luckfox-pico/sysdrv/source/buildroot/buildroot-2023.02.6/output/host/usr
+  351  ls /home/luckfox/luckfox-pico/sysdrv/source/buildroot/buildroot-2023.02.6/output/host/usr/
+  352  ls /home/luckfox/luckfox-pico/sysdrv/source/buildroot/buildroot-2023.02.6/output/host/usr/include/
+  353  ls /home/luckfox/luckfox-pico/sysdrv/source/buildroot/buildroot-2023.02.6/output/host/bin/arm-buildroot-linux-gnueabihf-gcc
+  354  ls /home/luckfox/luckfox-pico/sysdrv/source/buildroot/buildroot-2023.02.6/output/host/bin/
+  355  ls /home/luckfox/luckfox-pico/sysdrv/source/buildroot/buildroot-2023.02.6/output/host/arm-rockchip830-linux-uclibcgnueabihf/sysroot
+  356  ls /home/luckfox/luckfox-pico/sysdrv/source/buildroot/buildroot-2023.02.6/output/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/
+  357  cd RV1106DeviceDriverPractice/
+  358  ls
+  359  chmod +x build.sh 
+  360  ./build.sh 
+  361  cd /home/luckfox/luckfox-pico/sysdrv/source/kernel
+  362  make prepare
+  363  make defconfig
+  364  make prepare
+  365  sudo apt update
+  366  sudo apt install libelf-dev
+  367  make prepare
+  368  cd /home/luckfox/RV1106DeviceDriverPractice/
+  369  make all
+  370  cd /home/luckfox/luckfox-pico/sysdrv/source/kernel
+  371  make
+  372  make -j4
+  373  make modules -j4
+  374  ls /home/luckfox/luckfox-pico/sysdrv/source/kernel/Module.symvers
+  375  cd /home/luckfox/RV1106DeviceDriverPractice
+  376  make
+  377  ls
+  378  history > kmodCompilation
